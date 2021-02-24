@@ -10,9 +10,9 @@ function multiple () {
   first = parseInt(first)
   second = document.getElementById('enter').value
   second = parseInt(second)
-  // This runs loops until set rules are complete 
-  for (first; first>0; first --){
-  total = total + second
+  // This runs loops until set rules are complete
+  for (first; first > 0; first--) {
+    total = total + second
   }
   alert(total)
 }
